@@ -1,0 +1,98 @@
+.body{
+    color: black;
+}
+.stylos input[type=text] {
+    width: 35%;
+    padding: 9px 20px;
+    text-align: left;
+    border-radius: 6px;
+    background-color: #28292b;
+    font-weight: 300;
+    margin-top: 16px;
+    border-radius: 2rem;
+    
+}
+.stylos input[text=submit] :hover{
+    background-color: white;
+}
+#bar{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    background: #28292b;
+    color: black;
+}
+#bar a{
+    text-decoration: none;
+    text-wrap: left;
+}
+#bar ul {
+    display: flex;
+    list-style: none; 
+    align-items: center ;
+    padding-left: 30%;
+        
+        
+}
+#bar ul li {
+    padding:  0.75rem;
+    margin: 0.25rem;
+}
+#bar ul li :hover{
+    text-decoration: underline;
+}
+.ne{
+    display: flex;
+    float: right;
+
+}
+.ne a{
+    color: rgb(255, 255, 255);
+
+}
+#showcase{
+    height: 45vh; 
+    color: #ffffff;
+    background: url('../IMG/Google_logo_\(2013-2015\).svg.png') no-repeat center center/cover;
+    background-size: 30rem;
+    align-items: center;
+    
+    
+    
+}
+
+#showcase .showcase-content {
+    display: flex;
+    flex-direction: column;
+    text-align: center; 
+    justify-content: center;
+    height: 80vh;
+    padding-top: 2rem;   
+}
+.btn {
+    display: flex;
+    justify-content: space-evenly;
+    padding-left: 38rem;
+    padding-right: 38rem;
+    padding-top: 2rem;
+    
+}
+.btn input[type=submit]{
+    background-color: #5a5c64;
+    border: 1px solid #303134;
+    border-radius: 4px;
+    color: #e8eaed;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+
+}
+
