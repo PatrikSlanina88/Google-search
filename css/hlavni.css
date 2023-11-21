@@ -1,8 +1,9 @@
+
 .body{
     color: black;
 }
 .stylos input[type=text] {
-    width: 35%;
+    width: 27%;
     padding: 9px 20px;
     text-align: left;
     border-radius: 6px;
@@ -11,6 +12,9 @@
     margin-top: 16px;
     border-radius: 2rem;
     color: white;
+    height: 1.5rem;
+    border: 0.1px solid rgb(124, 123, 123);
+    
     
 }
 .stylos input[text=submit] :hover{
@@ -53,14 +57,11 @@
 
 }
 #showcase{
-    height: 45vh; 
+    height: 60vh; 
     color: #ffffff;
-    background: url('../IMG/Google_logo_\(2013-2015\).svg.png') no-repeat center center/cover;
-    background-size: 30rem;
+    background: url('../IMG/google-white-logo.png') no-repeat center center/cover;
+    background-size: 23rem;
     align-items: center;
-    
-    
-    
 }
 
 #showcase .showcase-content {
@@ -68,19 +69,19 @@
     flex-direction: column;
     text-align: center; 
     justify-content: center;
-    height: 80vh;
-    padding-top: 2rem;   
+    height: 150%;
+      
 }
+
 .btn {
     display: flex;
-    justify-content: space-evenly;
-    padding-left: 38rem;
-    padding-right: 38rem;
-    padding-top: 2rem;
+    padding-left: 43%;
+    padding-right: 38%;
+    padding-top: 2%;
     
 }
 .btn input[type=submit]{
-    background-color: #5a5c64;
+    background-color: #434549;
     border: 1px solid #303134;
     border-radius: 4px;
     color: #e8eaed;
@@ -90,10 +91,15 @@
     padding: 0 16px;
     line-height: 27px;
     height: 36px;
-    min-width: 54px;
     text-align: center;
     cursor: pointer;
-    user-select: none;
 
 }
-
+input:hover{
+    box-shadow: -1px 1px 43px 0px rgba(0,0,0,0.58);
+    -webkit-box-shadow: -1px 1px 43px 0px rgba(0,0,0,0.58);
+    -moz-box-shadow: -1px 1px 43px 0px rgba(0,0,0,0.58);
+    
+    
+    
+}
