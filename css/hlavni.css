@@ -10,6 +10,7 @@
     font-weight: 300;
     margin-top: 16px;
     border-radius: 2rem;
+    color: white;
     
 }
 .stylos input[text=submit] :hover{
