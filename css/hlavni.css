@@ -1,13 +1,15 @@
 
+
 .body{
     color: black;
+    margin-right: 5000px;
 }
 .stylos input[type=text] {
     width: 27%;
     padding: 9px 20px;
     text-align: left;
     border-radius: 6px;
-    background-color: #28292b;
+    background-color: #202122;
     font-weight: 300;
     margin-top: 16px;
     border-radius: 2rem;
@@ -25,8 +27,9 @@
     height: 70px;
     display: flex;
     justify-content: space-between;
-    background: #28292b;
+    background: #202122;
     color: black;
+    
 }
 #bar a{
     text-decoration: none;
@@ -36,7 +39,7 @@
     display: flex;
     list-style: none; 
     align-items: center ;
-    padding-left: 30%;
+    padding-left: 3%;
         
         
 }
@@ -98,8 +101,43 @@
 input:hover{
     box-shadow: -1px 1px 43px 0px rgba(0,0,0,0.58);
     -webkit-box-shadow: -1px 1px 43px 0px rgba(0,0,0,0.58);
-    -moz-box-shadow: -1px 1px 43px 0px rgba(0,0,0,0.58);
-    
-    
-    
+    -moz-box-shadow: -1px 1px 43px 0px rgba(0,0,0,0.58); 
 }
+.pismo{
+    color: rgb(75, 101, 247);
+    font-size: 23px;
+    font-family: arial,sans-serif;
+    display: flex;
+    justify-content: center;
+    padding-left: 15%;
+    padding-bottom: 1%;
+
+}
+.bg-dark{
+    background-color: black;
+}
+.py-1{
+    padding: 1.5rem 0;
+}
+.container{
+    max-width: 1000px;
+    margin: auto;
+    padding: 0 2rem;
+    font-size: 1.3rem;
+}
+#showcase2{
+    height: 60vh; 
+    color: #ffffff;
+    background: url('../IMG/google-white-logo.png') no-repeat center center/cover;
+    background-size: 23rem;
+    align-items: center;
+}
+#showcase2 .showcase-content2 {
+    display: flex;
+    flex-direction: column;
+    text-align: center; 
+    justify-content: center;
+    height: 130%;
+      
+}
+
