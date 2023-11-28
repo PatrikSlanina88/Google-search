@@ -2,7 +2,6 @@
 
 .body{
     color: black;
-    margin-right: 5000px;
 }
 .stylos input[type=text] {
     width: 27%;
@@ -77,11 +76,8 @@
 }
 
 .btn {
-    display: flex;
-    padding-left: 43%;
-    padding-right: 38%;
-    padding-top: 2%;
     
+    margin: 10px;
 }
 .btn input[type=submit]{
     background-color: #434549;
@@ -90,8 +86,7 @@
     color: #e8eaed;
     font-family: arial,sans-serif;
     font-size: 14px;
-    margin: 11px 4px;
-    padding: 0 16px;
+    margin: auto auto;
     line-height: 27px;
     height: 36px;
     text-align: center;
@@ -102,16 +97,6 @@ input:hover{
     box-shadow: -1px 1px 43px 0px rgba(0,0,0,0.58);
     -webkit-box-shadow: -1px 1px 43px 0px rgba(0,0,0,0.58);
     -moz-box-shadow: -1px 1px 43px 0px rgba(0,0,0,0.58); 
-}
-.pismo{
-    color: rgb(75, 101, 247);
-    font-size: 23px;
-    font-family: arial,sans-serif;
-    display: flex;
-    justify-content: center;
-    padding-left: 15%;
-    padding-bottom: 1%;
-
 }
 .bg-dark{
     background-color: black;
@@ -128,16 +113,25 @@ input:hover{
 #showcase2{
     height: 60vh; 
     color: #ffffff;
-    background: url('../IMG/google-white-logo.png') no-repeat center center/cover;
     background-size: 23rem;
     align-items: center;
+    margin: auto;
 }
-#showcase2 .showcase-content2 {
+#showcase2 .showcase-content {
     display: flex;
     flex-direction: column;
     text-align: center; 
-    justify-content: center;
-    height: 130%;
+    justify-content: flex-start;
       
 }
+.img{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+
 
